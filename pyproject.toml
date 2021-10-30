@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "repl_python3_TartStimulatingComputationalscience"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorama = "^0.4.4"
+discord = "^1.7.3"
+termcolor = "^1.1.0"
+bs4 = "^0.0.1"
+selenium = "^4.0.0"
+Faker = "^9.7.1"
+ansicolors = "^1.1.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
